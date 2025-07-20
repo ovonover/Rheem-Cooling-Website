@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rheem Split AC 1.5 Ton",
+      "brand": "Rheem",
+      "category": "Split AC",
+      "tonnage": "1.5",
+      "color": "White",
+      "coverageArea": "150-200 sq ft",
+      "price": 35000,
+      "originalPrice": 42000,
+      "rating": 4,
+      "reviews": 120,
+      "isTopSelling": true,
+      "description": "High efficiency split AC with fast cooling and low noise.",
+      "features": ["Inverter Technology", "Copper Condenser", "Anti-bacterial Filter"],
+      "images": [
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    }
+  ]
+}

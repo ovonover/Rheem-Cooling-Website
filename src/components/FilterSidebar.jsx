@@ -80,8 +80,8 @@ const FilterSidebar = ({ filters, onFilterChange, isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Tonnage Filter */}
-          <div className="filter-group">
+          
+           <div className="filter-group">
             <h3>Tonnage</h3>
             <div className="filter-options">
               {tonnages.map((tonnage) => (
@@ -99,7 +99,7 @@ const FilterSidebar = ({ filters, onFilterChange, isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Color Filter */}
+          
           <div className="filter-group">
             <h3>Color</h3>
             <div className="filter-options">
@@ -118,7 +118,7 @@ const FilterSidebar = ({ filters, onFilterChange, isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Coverage Area Filter */}
+          Coverage Area Filter
           <div className="filter-group">
             <h3>Coverage Area</h3>
             <div className="filter-options">
@@ -137,7 +137,7 @@ const FilterSidebar = ({ filters, onFilterChange, isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Price Range Filter */}
+          
           <div className="filter-group">
             <h3>Price Range</h3>
             <div className="price-filter">
@@ -157,7 +157,7 @@ const FilterSidebar = ({ filters, onFilterChange, isOpen, onClose }) => {
             </div>
           </div>
 
-          {/* Reset Button */}
+          
           <button onClick={resetFilters} className="reset-button">
             Reset Filters
           </button>

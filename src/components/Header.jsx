@@ -17,30 +17,6 @@ const Header = () => {
 
   return (
     <header className="header">
-      {/* Top bar */}
-      <div className="header-top">
-        <div className="container">
-          <div className="header-top-content">
-            <div className="contact-info">
-              <span className="contact-item">
-                <Phone className="icon" />
-                +91 98765 43210
-              </span>
-              <span className="contact-item">
-                <Mail className="icon" />
-                info@rheemcooling.com
-              </span>
-            </div>
-            <div className="company-info">
-              <span className="info-item">
-                <MapPin className="icon" />
-                40+ Stores Nationwide
-              </span>
-              <span>Since 1998</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Main header */}
       <div className="main-header">

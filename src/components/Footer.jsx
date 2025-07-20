@@ -63,16 +63,16 @@ const Footer = () => {
           {/* Contact */}
           <div className="footer-section">
             <h4>Contact Info</h4>
-            <div className="contact-info">
-              <div className="contact-item">
+            <div className="contact-info-f">
+              <div className="contact-item-f">
                 <Phone className="icon" />
                 <span>+91 98765 43210</span>
               </div>
-              <div className="contact-item">
+              <div className="contact-item-f">
                 <Mail className="icon" />
                 <span>info@rheemcooling.com</span>
               </div>
-              <div className="contact-item">
+              <div className="contact-item-f">
                 <MapPin className="icon" />
                 <span>40+ Stores Nationwide</span>
               </div>

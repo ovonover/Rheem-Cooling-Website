@@ -56,7 +56,7 @@ body {
 .header-top {
   background: var(--primary-color);
   color: var(--white);
-  padding: 8px 0;
+  padding: 5px 0;
   font-size: 14px;
 }
 
@@ -66,19 +66,26 @@ body {
   align-items: center;
 }
 
+
+
 .contact-info,
 .company-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 20px;
-}
+  gap: 5px;
+} 
 
+.contact-info{
+  gap: 0px;
+}
 .contact-item,
 .info-item {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
 
 .icon {
   width: 16px;
@@ -399,12 +406,15 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 18px;
+  border-radius: 8px;
 }
 
 .section-title {
   font-size: 32px;
   font-weight: bold;
-  color: var(--gray-800);
+  color: white;
   margin: 0;
 }
 
@@ -471,6 +481,7 @@ body {
   color: var(--gray-600);
   font-size: 14px;
   margin: 0;
+  padding-left: 1.8em;
 }
 
 .products-grid {
@@ -716,7 +727,8 @@ body {
 .filter-content {
   padding: 20px;
   height: 100%;
-  overflow-y: auto;
+  overflow-y: scroll;
+  max-height: calc(100vh - 220px);
 }
 
 .filter-header {
@@ -1116,6 +1128,7 @@ body {
 /* Gallery Styles */
 .gallery-section {
   padding: 60px 0;
+  padding-top: 30px;
   background: var(--gray-100);
 }
 
@@ -1603,6 +1616,12 @@ body {
   transition: background-color 0.3s ease;
 }
 
+.faq-question:focus,
+.faq-question:active {
+  outline: none;   /* Removes blue outline */
+  border: none;    /* Removes border if applied */
+}
+
 .faq-question:hover {
   background: var(--gray-200);
 }
@@ -1768,15 +1787,15 @@ body {
   color: var(--white);
 }
 
-.contact-info {
+.contact-info-f {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.contact-info .contact-item {
+.contact-info-f .contact-item-f {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   font-size: 14px;
   color: var(--gray-400);
@@ -1940,21 +1959,23 @@ body {
   }
   
   .header-top-content {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     text-align: center;
   }
   
   .header-content {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
-    text-align: center;
+    text-align: left;
   }
   
   .header-controls {
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
-    width: 100%;
+    padding: 12px 0px ;
+    border-radius: 0px;
+    width:auto;
   }
   
   .search-input {
@@ -1972,8 +1993,9 @@ body {
   }
   
   .stats-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    /* grid-template-columns: 1fr; */
+    flex-direction: row;
+    gap: 15px;
   }
   
   .values-grid {
@@ -2009,6 +2031,7 @@ body {
   
   .section-container {
     padding: 40px 0;
+    padding-top: 30px;
   }
   
   .banner-content {

@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
+    name: ' ',
     email: '',
     phone: '',
     message: ''
