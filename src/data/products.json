@@ -1,0 +1,317 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rheem Classic Split AC 1.5 Ton",
+      "brand": "Rheem",
+      "category": "Split AC",
+      "tonnage": "1.5",
+      "price": 35000,
+      "originalPrice": 42000,
+      "color": "White",
+      "coverageArea": "150-200 sq ft",
+      "rating": 4.5,
+      "reviews": 128,
+      "isTopSelling": true,
+      "description": "Energy efficient split AC with advanced cooling technology and smart features for optimal comfort.",
+      "features": [
+        "5-star energy rating",
+        "Copper condenser coil",
+        "Anti-bacterial filter",
+        "Remote control included",
+        "2-year comprehensive warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "LG Dual Inverter Split AC 1 Ton",
+      "brand": "LG",
+      "category": "Split AC",
+      "tonnage": "1",
+      "price": 28000,
+      "originalPrice": 32000,
+      "color": "White",
+      "coverageArea": "100-150 sq ft",
+      "rating": 4.3,
+      "reviews": 95,
+      "isTopSelling": true,
+      "description": "Advanced dual inverter technology for faster cooling and energy savings.",
+      "features": [
+        "Dual inverter compressor",
+        "Ocean black protection",
+        "4-way swing",
+        "Smart diagnosis",
+        "10-year compressor warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Samsung WindFree Split AC 2 Ton",
+      "brand": "Samsung",
+      "category": "Split AC",
+      "tonnage": "2",
+      "price": 45000,
+      "originalPrice": 52000,
+      "color": "White",
+      "coverageArea": "200-300 sq ft",
+      "rating": 4.6,
+      "reviews": 156,
+      "isTopSelling": true,
+      "description": "Revolutionary WindFree technology for gentle cooling without direct cold air.",
+      "features": [
+        "WindFree cooling",
+        "Digital inverter",
+        "SmartThings connectivity",
+        "Easy filter cleaning",
+        "5-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Daikin Inverter Window AC 1.5 Ton",
+      "brand": "Daikin",
+      "category": "Window AC",
+      "tonnage": "1.5",
+      "price": 32000,
+      "originalPrice": 38000,
+      "color": "White",
+      "coverageArea": "150-200 sq ft",
+      "rating": 4.2,
+      "reviews": 87,
+      "isTopSelling": false,
+      "description": "Compact window AC with inverter technology for efficient cooling.",
+      "features": [
+        "Inverter technology",
+        "Low noise operation",
+        "Auto restart",
+        "Sleep mode",
+        "3-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Carrier Window AC 1 Ton",
+      "brand": "Carrier",
+      "category": "Window AC",
+      "tonnage": "1",
+      "price": 25000,
+      "originalPrice": 29000,
+      "color": "White",
+      "coverageArea": "100-150 sq ft",
+      "rating": 4.0,
+      "reviews": 64,
+      "isTopSelling": false,
+      "description": "Reliable window AC with efficient cooling and easy installation.",
+      "features": [
+        "Rotary compressor",
+        "Washable filter",
+        "Auto restart",
+        "Timer function",
+        "2-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Voltas Cassette AC 3 Ton",
+      "brand": "Voltas",
+      "category": "Cassette AC",
+      "tonnage": "3",
+      "price": 65000,
+      "originalPrice": 75000,
+      "color": "White",
+      "coverageArea": "300-400 sq ft",
+      "rating": 4.4,
+      "reviews": 112,
+      "isTopSelling": true,
+      "description": "Commercial grade cassette AC perfect for offices and large spaces.",
+      "features": [
+        "4-way air distribution",
+        "High cooling capacity",
+        "Remote control",
+        "Energy efficient",
+        "3-year comprehensive warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Mitsubishi Cassette AC 2.5 Ton",
+      "brand": "Mitsubishi",
+      "category": "Cassette AC",
+      "tonnage": "2.5",
+      "price": 58000,
+      "originalPrice": 68000,
+      "color": "White",
+      "coverageArea": "250-350 sq ft",
+      "rating": 4.7,
+      "reviews": 89,
+      "isTopSelling": false,
+      "description": "Premium cassette AC with advanced features and superior build quality.",
+      "features": [
+        "Inverter technology",
+        "Plasma quad filter",
+        "Wireless remote",
+        "Auto clean function",
+        "5-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Godrej Split AC 1.5 Ton",
+      "brand": "Godrej",
+      "category": "Split AC",
+      "tonnage": "1.5",
+      "price": 33000,
+      "originalPrice": 39000,
+      "color": "Silver",
+      "coverageArea": "150-200 sq ft",
+      "rating": 4.1,
+      "reviews": 73,
+      "isTopSelling": false,
+      "description": "Eco-friendly split AC with R32 refrigerant and energy saving features.",
+      "features": [
+        "R32 refrigerant",
+        "Copper coil",
+        "Anti-viral filter",
+        "Turbo cooling",
+        "3-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Blue Star Window AC 2 Ton",
+      "brand": "Blue Star",
+      "category": "Window AC",
+      "tonnage": "2",
+      "price": 38000,
+      "originalPrice": 44000,
+      "color": "White",
+      "coverageArea": "200-250 sq ft",
+      "rating": 4.3,
+      "reviews": 91,
+      "isTopSelling": false,
+      "description": "Heavy duty window AC suitable for large rooms and commercial use.",
+      "features": [
+        "High cooling capacity",
+        "Rotary compressor",
+        "Auto restart",
+        "LED display",
+        "2-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Hitachi Split AC 1 Ton",
+      "brand": "Hitachi",
+      "category": "Split AC",
+      "tonnage": "1",
+      "price": 29000,
+      "originalPrice": 34000,
+      "color": "White",
+      "coverageArea": "100-150 sq ft",
+      "rating": 4.2,
+      "reviews": 68,
+      "isTopSelling": false,
+      "description": "Compact split AC with Japanese technology and reliable performance.",
+      "features": [
+        "Japanese technology",
+        "Inverter compressor",
+        "Auto clean",
+        "Kaimin sleep mode",
+        "3-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "O General Split AC 2 Ton",
+      "brand": "O General",
+      "category": "Split AC",
+      "tonnage": "2",
+      "price": 42000,
+      "originalPrice": 48000,
+      "color": "White",
+      "coverageArea": "200-300 sq ft",
+      "rating": 4.5,
+      "reviews": 134,
+      "isTopSelling": true,
+      "description": "Premium split AC with superior cooling performance and durability.",
+      "features": [
+        "Dual protection",
+        "Golden fin",
+        "Auto clean",
+        "Human sensor",
+        "5-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Panasonic Cassette AC 4 Ton",
+      "brand": "Panasonic",
+      "category": "Cassette AC",
+      "tonnage": "4",
+      "price": 78000,
+      "originalPrice": 88000,
+      "color": "White",
+      "coverageArea": "400+ sq ft",
+      "rating": 4.6,
+      "reviews": 76,
+      "isTopSelling": false,
+      "description": "High capacity cassette AC ideal for large commercial spaces and halls.",
+      "features": [
+        "High capacity cooling",
+        "Inverter technology",
+        "Nanoe-X technology",
+        "Wireless remote",
+        "5-year warranty"
+      ],
+      "images": [
+        "https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+      ]
+    }
+  ]
+}
