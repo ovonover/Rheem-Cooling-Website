@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rheem Cooling - Premium Air Conditioning Solutions Since 1998. Browse our wide selection of Split AC, Window AC, and Cassette AC units from 20+ top brands across 40+ stores nationwide." />
+    <meta name="keywords" content="air conditioner, AC, split AC, window AC, cassette AC, cooling, Rheem, air conditioning, HVAC" />
+    <meta name="author" content="Rheem Cooling" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Rheem Cooling - Brighter Every Day" />
+    <meta property="og:description" content="Premium Air Conditioning Solutions Since 1998" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rheemcooling.com" />
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Title -->
+    <title>Rheem Cooling - Premium Air Conditioning Solutions | Brighter Every Day</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=1200" as="image">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Rheem Cooling",
+      "url": "https://rheemcooling.com",
+      "logo": "https://rheemcooling.com/logo.png",
+      "description": "Premium Air Conditioning Solutions Since 1998",
+      "foundingDate": "1998",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-98765-43210",
+        "contactType": "customer service",
+        "email": "info@rheemcooling.com"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Cooling Street, Technology Park",
+        "addressLocality": "Mumbai",
+        "postalCode": "400001",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.facebook.com/rheemcooling",
+        "https://www.twitter.com/rheemcooling",
+        "https://www.instagram.com/rheemcooling"
+      ]
+    }
+    </script>
+    
+    <style>
+      /* Critical CSS for initial load */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
+      }
+      
+      /* Loading spinner */
+      .loading-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #0066cc, #00b8d4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      .loading-logo {
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        padding: 20px 30px;
+        border-radius: 12px;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        backdrop-filter: blur(10px);
+      }
+      
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      .loading-text {
+        color: white;
+        margin-top: 20px;
+        font-size: 18px;
+        opacity: 0.9;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Hide loading when app is ready */
+      .app-loaded .loading-container {
+        opacity: 0;
+        pointer-events: none;
+      }
+      
+      /* Root container */
+      #root {
+        min-height: 100vh;
+        opacity: 0;
+        transition: opacity 0.5s ease-in;
+      }
+      
+      .app-loaded #root {
+        opacity: 1;
+      }
+      
+      /* Error fallback styles */
+      .error-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        text-align: center;
+        background: #f8f9fa;
+      }
+      
+      .error-title {
+        font-size: 24px;
+        color: #dc3545;
+        margin-bottom: 10px;
+      }
+      
+      .error-message {
+        font-size: 16px;
+        color: #6c757d;
+        margin-bottom: 20px;
+      }
+      
+      .error-button {
+        background: #0066cc;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .error-button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-container" id="loading">
+      <div class="loading-logo">
+        Rheem Cooling
+      </div>
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Brighter Every Day</div>
+    </div>
+    
+    <!-- React App Root -->
+    <div id="root">
+      <!-- Fallback content for users with JavaScript disabled -->
+      <noscript>
+        <div class="error-container">
+          <h1 class="error-title">JavaScript Required</h1>
+          <p class="error-message">
+            This website requires JavaScript to function properly. 
+            Please enable JavaScript in your browser settings and refresh the page.
+          </p>
+          <button class="error-button" onclick="window.location.reload()">
+            Refresh Page
+          </button>
+        </div>
+      </noscript>
+    </div>
+    
+    <!-- Error Boundary Fallback -->
+    <div id="error-fallback" style="display: none;">
+      <div class="error-container">
+        <h1 class="error-title">Something went wrong</h1>
+        <p class="error-message">
+          We're sorry, but something unexpected happened. Please try refreshing the page.
+        </p>
+        <button class="error-button" onclick="window.location.reload()">
+          Refresh Page
+        </button>
+      </div>
+    </div>
+    
+    <!-- Vite React App Script -->
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Loading and Error Handling Script -->
+    <script>
+      // Handle loading state
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          document.body.classList.add('app-loaded');
+          setTimeout(function() {
+            const loading = document.getElementById('loading');
+            if (loading) {
+              loading.style.display = 'none';
+            }
+          }, 500);
+        }, 1000);
+      });
+      
+      // Handle errors
+      window.addEventListener('error', function(e) {
+        console.error('Application error:', e.error);
+        const root = document.getElementById('root');
+        const errorFallback = document.getElementById('error-fallback');
+        const loading = document.getElementById('loading');
+        
+        if (root && errorFallback && loading) {
+          root.style.display = 'none';
+          loading.style.display = 'none';
+          errorFallback.style.display = 'block';
+        }
+      });
+      
+      // Handle unhandled promise rejections
+      window.addEventListener('unhandledrejection', function(e) {
+        console.error('Unhandled promise rejection:', e.reason);
+      });
+      
+      // Performance monitoring
+      if ('performance' in window) {
+        window.addEventListener('load', function() {
+          setTimeout(function() {
+            const perfData = performance.getEntriesByType('navigation')[0];
+            if (perfData) {
+              console.log('Page load time:', perfData.loadEventEnd - perfData.loadEventStart, 'ms');
+            }
+          }, 0);
+        });
+      }
+      
+      // Service Worker registration (optional)
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          // Uncomment to enable service worker
+          // navigator.serviceWorker.register('/sw.js')
+          //   .then(function(registration) {
+          //     console.log('SW registered: ', registration);
+          //   })
+          //   .catch(function(registrationError) {
+          //     console.log('SW registration failed: ', registrationError);
+          //   });
+        });
+      }
+    </script>
+  </body>
+</html>
