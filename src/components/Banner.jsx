@@ -6,17 +6,17 @@ const Banner = () => {
 
   const bannerImages = [
     {
-      url: 'https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      url: '/src/assets/5.webp',
       title: 'Latest Split AC Collection',
       subtitle: 'Energy efficient cooling solutions for your home',
     },
     {
-      url: 'https://images.pexels.com/photos/4239031/pexels-photo-4239031.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      url: '/src/assets/4.webp',
       title: 'Window AC Special Offers',
       subtitle: 'Up to 30% off on selected window AC units',
     },
     {
-      url: 'https://images.pexels.com/photos/7005378/pexels-photo-7005378.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      url: '/src/assets/3.webp',
       title: 'Premium Cassette AC',
       subtitle: 'Perfect for commercial and large residential spaces',
     },

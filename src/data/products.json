@@ -16,7 +16,7 @@
       "description": "High efficiency split AC with fast cooling and low noise.",
       "features": ["Inverter Technology", "Copper Condenser", "Anti-bacterial Filter"],
       "images": [
-        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Split AC 1.5 Ton.png"
       ]
     },
     {
@@ -35,7 +35,7 @@
       "description": "Compact window AC suitable for small rooms.",
       "features": ["Energy Efficient", "Easy Installation", "Dust Filter"],
       "images": [
-        "https://images.pexels.com/photos/140017/pexels-photo-140017.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Window AC 1.5 Ton.webp"
       ]
     },
     {
@@ -54,7 +54,7 @@
       "description": "Powerful cassette AC for large spaces and offices.",
       "features": ["360° Airflow", "Silent Operation", "Remote Control"],
       "images": [
-        "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Midea-2-Ton-Cassette-Type-AC-MCA-24CR.jpg"
       ]
     },
     {
@@ -73,7 +73,7 @@
       "description": "Inverter split AC with advanced cooling technology.",
       "features": ["Inverter Compressor", "WiFi Enabled", "Self Diagnosis"],
       "images": [
-        "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Split AC 2 Ton Inverter.webp"
       ]
     },
     {
@@ -92,7 +92,7 @@
       "description": "Reliable window AC for medium-sized rooms.",
       "features": ["Copper Coil", "Turbo Cooling", "Sleep Mode"],
       "images": [
-        "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Window AC 1.5 Ton.webp"
       ]
     },
     {
@@ -111,7 +111,7 @@
       "description": "Portable AC for flexible cooling anywhere.",
       "features": ["Easy Mobility", "Remote Control", "Low Power Consumption"],
       "images": [
-        "https://images.pexels.com/photos/365968/pexels-photo-365968.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Midea-2-Ton-Cassette-Type-AC-MCA-24CR.jpg"
       ]
     },
     {
@@ -130,7 +130,7 @@
       "description": "Eco-friendly split AC with low energy consumption.",
       "features": ["Eco Mode", "Copper Coil", "Silent Operation"],
       "images": [
-        "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Split AC 1 Ton Eco.webp"
       ]
     },
     {
@@ -149,7 +149,7 @@
       "description": "High capacity cassette AC for commercial spaces.",
       "features": ["360° Airflow", "Smart Control", "Energy Saver"],
       "images": [
-        "https://images.pexels.com/photos/276528/pexels-photo-276528.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/3-ton-daikin-cassette-ac.jpg"
       ]
     },
     {
@@ -168,7 +168,7 @@
       "description": "Window AC with powerful cooling for large rooms.",
       "features": ["Turbo Cooling", "Copper Coil", "Auto Restart"],
       "images": [
-        "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Midea-2-Ton-Cassette-Type-AC-MCA-24CR.jpg"
       ]
     },
     {
@@ -187,7 +187,7 @@
       "description": "Premium split AC with advanced air purification.",
       "features": ["Air Purifier", "WiFi Enabled", "Inverter Technology"],
       "images": [
-        "https://images.pexels.com/photos/5490235/pexels-photo-5490235.jpeg?auto=compress&cs=tinysrgb&w=600"
+        "/src/assets/Split AC 1.5 Ton Premium.webp"
       ]
     }
   ]
